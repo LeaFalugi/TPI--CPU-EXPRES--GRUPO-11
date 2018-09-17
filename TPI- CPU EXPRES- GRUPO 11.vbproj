@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{123D41FA-E8D1-440B-944C-0FAD521795D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TPI__CPU_EXPRES__GRUPO_11.My.MyApplication</StartupObject>
+    <RootNamespace>TPI__CPU_EXPRES__GRUPO_11</RootNamespace>
+    <AssemblyName>TPI- CPU EXPRES- GRUPO 11</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TPI- CPU EXPRES- GRUPO 11.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TPI- CPU EXPRES- GRUPO 11.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="TransControl_src">
+      <HintPath>..\..\..\..\..\..\..\Desktop\TransControl_src\TransControl_src.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\Configuración.Designer.vb">
+      <DependentUpon>Configuración.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Configuración.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmCargo.Designer.vb">
+      <DependentUpon>frmCargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmCargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmCiudad.Designer.vb">
+      <DependentUpon>frmCiudad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmCiudad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmBarrio.Designer.vb">
+      <DependentUpon>frmBarrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmBarrio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmCategoria.Designer.vb">
+      <DependentUpon>frmCategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmCategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmPais.Designer.vb">
+      <DependentUpon>frmPais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmPais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmProducto.Designer.vb">
+      <DependentUpon>frmProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmProveedores.Designer.vb">
+      <DependentUpon>frmProveedores.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmProvincia.Designer.vb">
+      <DependentUpon>frmProvincia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmProvincia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frmTipoDoc.Designer.vb">
+      <DependentUpon>frmTipoDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frmTipoDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Configuración.resx">
+      <DependentUpon>Configuración.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmCargo.resx">
+      <DependentUpon>frmCargo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmCiudad.resx">
+      <DependentUpon>frmCiudad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmBarrio.resx">
+      <DependentUpon>frmBarrio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmCategoria.resx">
+      <DependentUpon>frmCategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmPais.resx">
+      <DependentUpon>frmPais.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmProducto.resx">
+      <DependentUpon>frmProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmProveedores.resx">
+      <DependentUpon>frmProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmProvincia.resx">
+      <DependentUpon>frmProvincia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frmTipoDoc.resx">
+      <DependentUpon>frmTipoDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\71646d7673e8847ab07b3b7e78928777-search-circle-icon-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\2018-09-13 16.19.12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_flat-style-circle-add_1312548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_sign-add_299068.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8613-amazing-dark-background-2560x1600-download-free.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CPU-EXPRES_#1_brand_usage_#2_created_by_logaster.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
